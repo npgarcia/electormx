@@ -11,6 +11,7 @@
 		ga('send', 'pageview');
 	</script>
 	<!-- End Google Analytics -->
+	<link rel="shortcut icon" href="favicon.ico"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style type="text/css">
 	html {
@@ -37,6 +38,13 @@
 	}
 	#punch .resumen {
   		font-style: italic;
+  		font-size: 17px;
+  		max-width: 390px;
+  		padding-top: 5%;
+	}
+	#punch .cierre {
+		color: #ab0636;
+  		text-align: left;
   		font-size: 17px;
   		max-width: 390px;
   		padding-top: 5%;
@@ -120,7 +128,7 @@
 			<div id="punch">
 				<h1>La política está de hueva, nosotros te resumimos la información</h1>
 				<div>
-					<p class="resumen">¿Quién podría ser el próximo Presidente de México? ¡Suscríbete y entérate del chisme!</p>
+					<p class="resumen">Recibe en tu correo los comentarios de las noticias sobre las elecciones para Presidente de México.</p>
 				</div>
 				<div id="mc_embed_signup">
 					<form action="https://elector.us17.list-manage.com/subscribe/post?u=4e633af75427c425df109e479&amp;id=dbeb7ff932" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -144,13 +152,16 @@
 					    <div class="clear"><input type="submit" value="Suscribir" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="suscripcion()"></div>
 					    </div>
 					</form>
-					</div>
+				</div>
 				<!--End mc_embed_signup-->
+				<div>
+					<p class="cierre">Vota por quien tú quieras. Pero vota informado.</p>
+				</div>
 			</div>
 	</div>
 	<script>
 		function suscripcion() {
-			ga('send', 'event', 'mail', 'click','etapa 2');
+			ga('send', 'event', 'mail', 'click','etapa 3');
 		}
 	</script>
 </body>
