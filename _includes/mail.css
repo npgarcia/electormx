@@ -1,0 +1,65 @@
+/* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+#mc_embed_signup form {
+	display:block;
+	position:relative;
+	text-align:left;
+	padding: 0;
+	max-width: 390px;
+}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {
+	clear:both;
+	background-color: #A10049;
+	border: 0 none;
+	border-radius:4px;
+	transition: all 0.23s ease-in-out 0s;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size:15px;
+	font-weight: normal;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 5px 10px 0;
+	padding: 0 22px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+}
+#mc_embed_signup .button:hover {
+	background-color: #63002F;
+}
+#mc_embed_signup .button:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+#mc_embed_signup .mc-field-group {
+	clear:left;
+	position:relative;
+	width:100%;
+	padding-bottom:3%;
+	min-height:50px;
+}
+#mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
+#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+#mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+
+#mc_embed_signup .indicates-required {
+	text-align:right;
+	font-size:11px;
+	margin-right: 0;
+	display: block;
+}
+#mc_embed_signup .asterisk {
+	color: #ab0636;
+	font-size:150%;
+	font-weight:normal;
+	position:relative;
+	top:5px;
+}

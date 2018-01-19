@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	{% include meta.html %}
+
+	<style type="text/css">
+	{% include main.css %}
+	{% include mail.css %}
+	</style>
+</head>
+
+<body>
+	<div id="main">
+		{% include header.html %}
+		{{ content }}
+		{% include footer.html %}
+	</div>
+</body>
+</html>
